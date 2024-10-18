@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Pet Shop</title>
+    <!-- gf -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- fawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            font-family: "Roboto", system-ui;
+        }
+
+    </style>
+    <!-- twind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <div class="bg-green-500 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Pet Shop</h1>
+            <nav>
+                <a href="#" class="mx-4 hover:black">Home</a>
+                <a href="#" class="mx-4 hover:black">Products</a>
+                <a href="#" class="mx-4 hover:black">Services</a>
+                <a href="#" class="mx-4 hover:black">Contact</a>
+            </nav>
+        </div>
+    </div>
+
+    
+
+    <!-- Hero Section -->
+    <div class="bg-cover bg-center h-64" style="background-image: url('https://t3.ftcdn.net/jpg/06/00/98/62/360_F_600986226_vZqxpraF9mTn0RZdOD8TgDOVMtAR21uZ.jpg');">
+        <div class="flex justify-center items-center h-full bg-black bg-opacity-50">
+            <h2 class="text-white text-6xl font-bold">ARNOLD PET SHOP</h2>
+        </div>
+    </div>
+
+    <!-- about us -->
+    <div class="w-full  my-20 md:grid grid-cols-2">
+
+        <div>
+            <img src="https://townsquare.media/site/699/files/2024/08/attachment-Untitled-design-2024-08-23T151711.369.jpg?w=780&q=75" alt="no images" class="w-full h-full">
+        </div>
+    
+        <div class="md:px-40 px-10">
+            <div class="flex justify-center items-center flex-col my-10">
+                <h1 class="text-4xl  font-bold">ABOUT US</h1>
+                
+            </div>
+    
+            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, placeat odit? Unde officia minima nam. Repellendus, rerum corporis tempore fugiat odit quod, vero delectus quam facilis id, ea quasi odio! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio aliquid dolorem animi, laboriosam commodi culpa ex placeat. Minus voluptatem exercitationem, sapiente dignissimos atque ea sed iure non, nisi voluptatum dicta.</p>
+            <p class="mt-10 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, pariatur deleniti? Similique voluptatem neque incidunt. Veniam debitis porro sed nostrum alias totam quaerat adipisci vel magni nulla, magnam rerum reiciendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit mollitia accusamus, soluta culpa excepturi nostrum deserunt commodi odit officiis architecto ullam eius neque! Fugiat soluta, modi vitae ipsam alias officia!</p>
+        </div>
+    
+    
+     </div>
+
+
+    <!-- Products Section -->
+    <section class="container mx-auto py-8 w-full flex justify- center items-center flex-col">
+        <h2 class="text-4xl font-bold mb-4">Our Pets</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Product 1 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://www.helsinki.fi/assets/drupal/styles/16_10_fallback/s3/media-image/group-of-nine-dogs_D9.jpg.jpeg?itok=vIvjBFXY" alt="Dog" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold"> Dogs</h3>
+                    <p class="text-gray-700"> Starting At 5000</p>
+                    <button class="mt-4 bg-green-500 text-white px-4 py-2 rounded">Add to Cart</button>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://aarcs.ca/wp-content/uploads/2023/01/Kittens-906x675.jpg" alt="Cat" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold">cats</h3>
+                    <p class="text-gray-700"> Starting At3000</p>
+                    <button class="mt-4 bg-green-500 text-white px-4 py-2 rounded">Add to Cart</button>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://www.thesprucepets.com/thmb/X6Se5sWlNMb0pDUD4vh-jM65NXU=/2121x0/filters:no_upscale():strip_icc()/australian-finch--taeniopygia-guttata--807072894-79e2ba40ea54453fa9c64429d8d234e1.jpg" alt="Bird" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold"> Birds</h3>
+                    <p class="text-gray-700"> Starting At 1500</p>
+                    <button class="mt-4 bg-green-500 text-white px-4 py-2 rounded">Add to Cart</button>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://img.freepik.com/premium-photo/aquarium-fish-large-fish-tanks-create-beautiful-aquarium-world-marine-pets_1182565-16112.jpg" alt="Dog" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold">FISHES</h3>
+                    <p class="text-gray-700"> Starting At 50</p>
+                    <button class="mt-4 bg-green-500 text-white px-4 py-2 rounded">Add to Cart</button>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://d2zp5xs5cp8zlg.cloudfront.net/image-89972-800.jpg" alt="Cat" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold">Iguana</h3>
+                    <p class="text-gray-700"> Starting At 3000</p>
+                    <button class="mt-4 bg-green-500 text-white px-4 py-2 rounded">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://phgliders.com/wp-content/uploads/2022/11/2-Checo-Male.jpg" alt="Cat" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold">Sugar Glider</h3>
+                    <p class="text-gray-700"> Starting At 1000</p>
+                    <button class="mt-4 bg-green-500 text-white px-4 py-2 rounded">Add to Cart</button>
+                </div>
+            </div>
+
+            
+            
+ </section>
+<!-- foods -->
+<div class="w-full">
+    <div class="flex justify-center items-center flex-col my-20">
+        <h1 class="text-4xl font-bold">FOOD ITEMS</h1>
+        
+        <div class="bg-white  shadow-md overflow-hidden justify-center">
+            <img src="https://www.purina.in/sites/default/files/styles/ttt_image_510/public/2023-06/Double-signpost-desktop-left-desktop_0.jpg?itok=fltKgT6n" alt="Cat" class="w-full h-100 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold items-center justify-center">ALL PET FOODS</h3>
+                <p class="text-gray-700 a
+                items-center justify-center"> Starting 70/KG</p>
+                <button class="mt-4 bg-green-500 text-white px-4 py-2 rounded items-center justify-center">Order now</button>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <!-- services -->
+    <div>
+        <div class="flex justify-center items-center flex-col my-20">
+            <h1 class="text-4xl font-bold">SERVICES</h1>
+        <div class="w-full  my-20 md:grid grid-cols-2">
+            
+            <div>
+                <img src="./png-transparent-physician-lia-doctor-of-medicine-doctors-and-nurses-miscellaneous-photography-service-removebg-preview (1).png" alt="no images" class="w-70 h-70">
+            </div>
+        
+            <div class="md:px-40 px-10">
+                <div class="flex justify-center items-center flex-col my-10">
+                    <h1 class="text-4xl  font-bold"></h1>
+                    
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">ALL CLINIC SOLUTIONS</h3>
+                        <P>24X7 Doctar Connection</P>
+                        
+                        
+                </div>
+        
+                
+            </div>
+        
+        
+         </div>
+        </div>
+    
+    
+        <div class="md:grid grid-cols-3 px-40 px-6">
+            <div></div>
+                <div>
+                    <div class="flex flex-col md:flex-row md:space-x-4">
+                        <div class="w-full md:w-1/2">
+                            <label class="block text-gray-700 font-bold mb-2"></label>
+                            <input type="text" class="w-full border md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="NAME">
+                        </div>
+                        <div class="w-full md:w-1/2">
+                            <label class="block text-gray-700 font-bold mb-2"></label>
+                            <input type="email" class="w-full border md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="EMAIL">
+                        </div>
+                    </div>
+                    <div class="w-full mt-4">
+                        <label class="block text-gray-700 font-bold mb-2"></label>
+                        <textarea class="w-full border md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" rows="4" placeholder="MESSAGE"></textarea>
+                    </div>
+                    
+                
+               </div>
+        
+                </div>
+                <div></div>
+    
+                <div class="md:grid grid-cols-3 px-40 px-6">
+                    <div></div>
+                    <div class="flex justify-center items-center flex-col my-5 md:p-16 p-10" >
+                        <button class="border border-black bg-transparent text-black hover:bg-white py-2 px-4 hover:text-green-500 ">
+                            SEND MESSAGE
+                        </button>
+    
+                    </div>
+                    
+    </div>
+
+
+
+    
+
+
+  
+
+
+
+    <footer class="bg-green-500 text-BLACK p-4">
+        <div class="md:grid grid-cols-12">
+            <div><p class="text-left text-black">CONNECT US</p></div>
+            <div></div>
+            <div></div>
+            <div>
+                <ul class=" flex justify-evenly ">
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-x-twitter"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                </ul>
+            </div>
+    
+        </div>
+       </footer>
+
+   
+
+</body>
+</html>
